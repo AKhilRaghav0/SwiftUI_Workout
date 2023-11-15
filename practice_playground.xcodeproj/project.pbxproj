@@ -11,6 +11,8 @@
 		E9ED596F2B052CAD00182228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED596E2B052CAD00182228 /* ContentView.swift */; };
 		E9ED59712B052CB400182228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED59702B052CB400182228 /* Assets.xcassets */; };
 		E9ED59752B052CB400182228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED59742B052CB400182228 /* Preview Assets.xcassets */; };
+		E9ED597C2B05581000182228 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED597B2B05581000182228 /* MusicPlayer.swift */; };
+		E9ED597E2B05586E00182228 /* tere_bin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9ED597D2B05586E00182228 /* tere_bin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E9ED59702B052CB400182228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9ED59722B052CB400182228 /* practice_playground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = practice_playground.entitlements; sourceTree = "<group>"; };
 		E9ED59742B052CB400182228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9ED597B2B05581000182228 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		E9ED597D2B05586E00182228 /* tere_bin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tere_bin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				E9ED596C2B052CAD00182228 /* practice_playgroundApp.swift */,
 				E9ED596E2B052CAD00182228 /* ContentView.swift */,
+				E9ED597D2B05586E00182228 /* tere_bin.mp3 */,
+				E9ED597B2B05581000182228 /* MusicPlayer.swift */,
 				E9ED59702B052CB400182228 /* Assets.xcassets */,
 				E9ED59722B052CB400182228 /* practice_playground.entitlements */,
 				E9ED59732B052CB400182228 /* Preview Content */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9ED597E2B05586E00182228 /* tere_bin.mp3 in Resources */,
 				E9ED59752B052CB400182228 /* Preview Assets.xcassets in Resources */,
 				E9ED59712B052CB400182228 /* Assets.xcassets in Resources */,
 			);
@@ -141,6 +148,7 @@
 			files = (
 				E9ED596F2B052CAD00182228 /* ContentView.swift in Sources */,
 				E9ED596D2B052CAD00182228 /* practice_playgroundApp.swift in Sources */,
+				E9ED597C2B05581000182228 /* MusicPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
