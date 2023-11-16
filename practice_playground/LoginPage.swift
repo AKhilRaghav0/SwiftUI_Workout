@@ -13,6 +13,9 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
+            // FIXME: make the logo static at one position
+            
+            Spacer()
             Image("back2")
                 .resizable()
                 .scaledToFill()

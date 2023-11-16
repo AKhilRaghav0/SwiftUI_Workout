@@ -11,7 +11,8 @@ import SwiftUI
 struct practice_playgroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MusicPlayer(expandedSheet: .constant(true), animatoin: Namespace().wrappedValue)
+               
         }
     }
 }
